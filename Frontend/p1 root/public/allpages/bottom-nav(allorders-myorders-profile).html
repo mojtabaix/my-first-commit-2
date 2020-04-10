@@ -1,0 +1,219 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="/public/src/css/bottom-nav.css">
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     <script src="/public/src/js/bottom-nav.js"></script>
+ </head>
+ <body>
+     <nav class="fixed-bottom nav-justified" role="navigation" style="background-color: rgb(230, 230, 230);">
+    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><i class="material-icons">person</i><br>حساب کاربری</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" id="all-orders-tab" data-toggle="tab" href="#all-orders" role="tab" aria-controls="messages" aria-selected="false"><i class="material-icons">list</i><br>همه سفارشات</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="my-orders-tab" data-toggle="tab" href="#my-orders" role="tab" aria-controls="settings" aria-selected="false"><i class="material-icons">inbox</i><br>سفارشات من</a>
+        </li>
+      </ul>
+      </nav>
+      
+      <div class="tab-content">
+        <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <nav class="profile-nav">
+            <p>حساب کاربری</p>
+          </nav>
+          <main class="conta-profile">
+            <div class="deligent-text">
+              <p>Deligent</p>
+            </div>
+            <div class="container mark-number">
+              <div class="row">
+                <div class="col">
+                  <i class="material-icons">shopping_cart</i>
+                  <p>سفارش</p>
+                </div>
+                <div class="col number-class">
+                  <i class="material-icons">grade</i>
+                  <p>امتیاز</p>
+                </div>
+              </div>
+            </div>
+            <div class="exit-class">
+              <a href="#">خروج از حساب کاربری</a>
+              <i class="material-icons">exit_to_app</i>
+            </div>
+          </main>
+        </div>
+        <div class="tab-pane active show" id="all-orders" role="tabpanel" aria-labelledby="all-orders-tab">
+          <nav class="allorders-nav">
+            <input type="text" name="" id="" placeholder="مبدا">
+            <input type="text" name="" id="" placeholder="مقصد">
+          </nav>
+          <div class="conta-allorders">
+            <div class="order-card"> <!-- Note: this one multiplies over the page and should scroll behind bottom navigaitor -->
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 detail-class">
+                    <p>کشور مبدا: امریکا <br>نام محصول: توپ بسکتبال </p>
+                  </div>
+                  <div class="col-4 image-class">
+                    <img src="/public/src/images/download.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="order-card"> <!-- Note: this one multiplies over the page and should scroll behind bottom navigaitor -->
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 detail-class">
+                    <p>کشور مبدا: امریکا <br>نام محصول: توپ بسکتبال </p>
+                  </div>
+                  <div class="col-4 image-class">
+                    <img src="/public/src/images/download.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="order-card"> <!-- Note: this one multiplies over the page and should scroll behind bottom navigaitor -->
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 detail-class">
+                    <p>کشور مبدا: امریکا <br>نام محصول: توپ بسکتبال </p>
+                  </div>
+                  <div class="col-4 image-class">
+                    <img src="/public/src/images/download.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="order-card"> <!-- Note: this one multiplies over the page and should scroll behind bottom navigaitor -->
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 detail-class">
+                    <p>کشور مبدا: امریکا <br>نام محصول: توپ بسکتبال </p>
+                  </div>
+                  <div class="col-4 image-class">
+                    <img src="/public/src/images/download.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="order-card"> <!-- Note: this one multiplies over the page and should scroll behind bottom navigaitor -->
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 detail-class">
+                    <p>کشور مبدا: امریکا <br>نام محصول: توپ بسکتبال </p>
+                  </div>
+                  <div class="col-4 image-class">
+                    <img src="/public/src/images/download.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="order-card"> <!-- Note: this one multiplies over the page and should scroll behind bottom navigaitor -->
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 detail-class">
+                    <p>کشور مبدا: امریکا <br>نام محصول: توپ بسکتبال </p>
+                  </div>
+                  <div class="col-4 image-class">
+                    <img src="/public/src/images/download.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="order-card"> <!-- Note: this one multiplies over the page and should scroll behind bottom navigaitor -->
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 detail-class">
+                    <p>کشور مبدا: امریکا <br>نام محصول: توپ بسکتبال </p>
+                  </div>
+                  <div class="col-4 image-class">
+                    <img src="/public/src/images/download.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="order-card"> <!-- Note: this one multiplies over the page and should scroll behind bottom navigaitor -->
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 detail-class">
+                    <p>کشور مبدا: امریکا <br>نام محصول: توپ بسکتبال </p>
+                  </div>
+                  <div class="col-4 image-class">
+                    <img src="/public/src/images/download.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="order-card"> <!-- Note: this one multiplies over the page and should scroll behind bottom navigaitor -->
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 detail-class">
+                    <p>کشور مبدا: امریکا <br>نام محصول: توپ بسکتبال <br></p>
+                  </div>
+                  <div class="col-4 image-class">
+                    <img src="/public/src/images/download.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane" id="my-orders" role="tabpanel" aria-labelledby="my-orders-tab">
+          <nav class="allorders-nav">
+            <input type="text" name="" id="" placeholder="مبدا">
+            <input type="text" name="" id="" placeholder="مقصد">
+          </nav>
+          <div class="conta-myorders">
+            <div class="order-card"> <!-- Note: this one multiplies over the page and should scroll behind bottom navigaitor -->
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 detail-class">
+                    <p>شماره سفارش: 213456 <br>نام محصول: توپ بسکتبال<br>وضعیت: در حال تایید</p>
+                  </div>
+                  <div class="col-4 image-class">
+                    <img src="/public/src/images/download.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="order-card"> <!-- Note: this one multiplies over the page and should scroll behind bottom navigaitor -->
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 detail-class">
+                    <p>شماره سفارش: 213456 <br>نام محصول: توپ بسکتبال<br>وضعیت: در حال تایید</p>
+                  </div>
+                  <div class="col-4 image-class">
+                    <img src="/public/src/images/download.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="order-card"> <!-- Note: this one multiplies over the page and should scroll behind bottom navigaitor -->
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 detail-class">
+                    <p>شماره سفارش: 213456 <br>نام محصول: توپ بسکتبال<br>وضعیت: در حال تایید</p>
+                  </div>
+                  <div class="col-4 image-class">
+                    <img src="/public/src/images/download.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ </body>
+ </html>
