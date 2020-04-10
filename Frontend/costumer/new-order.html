@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/src/css/new-order.css">
+    <script src="/public/src/js/new-orders.js"></script>
+</head>
+<body>
+    <nav class="neworder-nav">
+        <p>سفارش جدید</p>
+    </nav>
+    <form class="container" style="max-width: 400px; text-align: center; padding: 0 60px;">
+        <div class="row">
+            <div class="col">
+                <input type="text" name="" id="">
+            </div>
+        </div>
+        <div class="row" style="text-align: center;">
+            <div class="col">
+                <input type="text" name="" id="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-7" style="text-align: left;">
+                picture and input
+            </div>
+            <div class="col-5" style="text-align: right;">
+                <p>عکس محصول</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-5" style="text-align: center; padding: 0; margin-left: 15px; border: solid 1px; border-radius: 20px;">
+                <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><i class="material-icons">remove</i></div>
+                <input type="number" id="number" value="0" />
+                <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><i class="material-icons">add</i></div>
+            </div>
+            <div class="col-6" style="text-align: right; vertical-align: bottom;">تعداد</div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <textarea name="" id="" cols="23" rows="10" placeholder="توضیحات"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <input type="date" name="" class="pick-date" id="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="text-align: right;">
+                <label for="customCheck"> بعد از این تاریخ محصول را نمی خواهم</label>
+                <input type="checkbox" name="" id="">
+                <input type="submit" value="افزودن">
+            </div>
+        </div>
+        <div class="row" style="text-align: center;">
+            <div class="col">
+                <a href="login.html">انصراف</a>
+                <a href="order-detail.html">orderdetail</a>
+                <a href="new-order.html">neworder</a>
+                <a href="bottom-nav(allorders-myorders-profile).html">3pages</a>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
