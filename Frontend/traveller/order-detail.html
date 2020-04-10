@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/order-detail.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <nav class="orderdetail-nav">
+        <p>جزئیات درخواست</p>
+    </nav>
+    <main class="container" style="max-width: 400px; padding: 0 70px; text-align: center;">
+        <div class="row">
+            <div class="col" style="text-align: right;">کشور دوم</div>
+            <div class="col-3"><i class="material-icons">flight</i></div>
+            <div class="col" style="text-align: left;">کشور اول</div>
+        </div>
+        <div class="row">
+            <div class="col"><img src="/images/download.png" alt="" style="border-radius: 15px;"></div>
+        </div>
+        <div class="row">
+            <div class="col" style="text-align: right;"><span style="color: rgb(143, 143, 143);">توپ بسکتبال</span></div>
+            <div class="col-1"><span>:</span></div>
+            <div class="col" style="text-align: left;"><span style="color: rgb(92, 92, 92); font-weight: bold; font-size: 18px;">نام محصول</span></div>
+        </div>
+        <div class="row">
+            <div class="col" style="text-align: right;"><span style="color: rgb(143, 143, 143);">8 April 2020</span></div>
+            <div class="col-1"><span>:</span></div>
+            <div class="col" style="text-align: left;"><span style="color: rgb(92, 92, 92); font-weight: bold; font-size: 18px;">تاریخ دریافت</span></div>
+        </div>
+        <!-- {% if onlydate %} -->
+        <div class="row">
+            <div class="col">
+                <span style="font-weight: 600; font-size: 18;">عدم دریافت پس از تاریخ فوق</span>
+                <i class="material-icons" style="vertical-align: bottom; color: rgb(71, 196, 238);">error</i>
+            </div>
+        </div>
+        <!-- {% endif %} -->
+        <div class="row" style="border: solid 1px rgba(92, 92, 92, 0.692); border-radius: 15px;">
+            <div class="col-2" style="text-align: left; padding: 2px 0 2px 5px;">
+                <i class="material-icons" style="vertical-align: bottom;">link</i>
+            </div>
+            <div class="col">
+                <span>https://amazon.c...</span>
+                <span> : </span>
+                <span>لینک </span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="padding: 0;"><textarea name="" id="" cols="29" rows="5" placeholder="توضیحات" style="direction: rtl; border-radius: 10px;"></textarea></div>
+        </div>
+        <div class="row">
+            <div class="col" style="margin-top: 30px;">
+                <a class="btn btn-danger btn active" role="button" aria-pressed="true" style="width: 120px; font-size: 17px;" id="button">پیشنهاد خرید</a>
+            </div>
+        </div>
+    </main>
+    <script>
+        document.getElementById("button").onclick = function() {
+          window.location.href = "buying-offer.html";
+        };
+    </script>
+</body>
+</html>

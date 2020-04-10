@@ -1,0 +1,103 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+body {
+    padding-bottom: 71px;
+}
+
+.profile-nav {
+    width: 100%;
+    background-color: #CA3433;
+    height: 110px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.profile-nav p {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.conta-profile {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.conta-profile .deligent-text {
+    padding: 30px 20px 20px 20px;
+    text-align: center;
+    height: 90px;
+    border-bottom: solid 1px rgba(95, 95, 95, 0.61);
+}
+
+.conta-profile .deligent-text p {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(92, 92, 92);
+}
+
+.conta-profile .mark-number {
+    height: 80px;
+    border-bottom: solid 1px rgba(95, 95, 95, 0.61);
+    padding: 15px 50px;
+}
+
+.conta-profile .mark-number p {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(92, 92, 92, 0.747);
+}
+
+.conta-profile .mark-number .row .number-class {
+    text-align: right;
+}
+
+.conta-profile .exit-class {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.conta-profile .exit-class a {
+    font-size: 17px;
+    color: rgb(109, 109, 109);
+    text-decoration: underline;
+}
+
+.allorders-nav {
+    width: 100%;
+    background-color: #CA3433;
+    height: 150px;
+    text-align: center;
+    padding: 35px 0;
+}
+
+.allorders-nav input {
+    width: 70%;
+    height: 38px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    direction: rtl;
+    padding: 0 15px;
+    border: none;
+}
+
+.allorders-nav {
+    width: 100%;
+    background-color: #CA3433;
+    height: 150px;
+    text-align: center;
+    padding: 35px 0;
+}
+
+a, a:visited, a:hover, a:link {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    margin: 0;
+}
+
